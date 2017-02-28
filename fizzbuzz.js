@@ -2,12 +2,20 @@ function fizzbuzz(x) {
   let cats = [];
   for (var i = 0; i < x; i++) {
      console.log(i);
-     // more statements
-  }
+     let output;
+    if (i % 3 === 0) {
+
+    } else if (i % 5 === 0) {
+      output = "buzz";
+    }
+    cats.push(output);
+
 };
+console.log(cats);
 
+}
 
-fizzbuzz(57);
+fizzbuzz(20);
 
 
 
