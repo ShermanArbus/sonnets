@@ -1,7 +1,14 @@
 let sonnets = require('./sonnets.js');
 
 let puck = sonnets.split(" ");
-function wordFrequency("sonnets") {
+
+
+console.log(puck);
+
+
+
+
+function wordFrequency(sonnets) {
 
 }
 
